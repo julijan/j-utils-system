@@ -11,7 +11,7 @@ project "j-utils-system"
 	includedirs { "./includes/src", "./includes/src/**", "./includes/uses/src/**" }
 	libdirs { "./includes/lib/**", "./includes/uses/lib/**" }
 	links {
-		
+		"j-utils-string"
 	}
 	filter "configurations:Debug"
 		defines { "DEBUG" }
